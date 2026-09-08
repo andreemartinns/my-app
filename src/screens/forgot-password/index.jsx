@@ -1,5 +1,6 @@
 import { useNavigation } from "@react-navigation/native"
 import { Btn, BtnTitle, Container, Title } from "./style"
+import AlertBanner from "@/components/alert-banner"
 
 const ForgotPassword = () => {
     
@@ -8,6 +9,7 @@ const ForgotPassword = () => {
     return ( 
         <Container>
             <Title>Forgot Password</Title>
+            <AlertBanner message="oioioioioi" />
             <Btn 
                 onPress={() => navigation.navigate("SignIn")}>
                 <BtnTitle>Sign In</BtnTitle>
