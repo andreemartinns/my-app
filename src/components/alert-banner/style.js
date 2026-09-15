@@ -1,7 +1,9 @@
 import styled from "styled-components/native";
 
-const Container = styled.View``
+const Container = styled.View`
+  width: 80%;
+`;
 
-const Description = styled.Text``
+const Description = styled.Text``;
 
-export { Container, Description }
+export { Container, Description };
